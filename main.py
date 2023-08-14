@@ -16,7 +16,7 @@ def is_valid_image(image_path):
 def main():
     source_folder = "~/.quickshot_temp/"
     source_folder = os.path.expanduser(source_folder)
-    print(source_folder)
+    print(f"Watching: {source_folder}")
     while True:
         files = os.listdir(source_folder) 
         for file in files:
